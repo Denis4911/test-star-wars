@@ -1,0 +1,62 @@
+@import "assets/css/normalize.css";
+
+@font-face {
+    font-family: "PTSans";
+    src: url("~@/assets/fonts/PTSans-Regular.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PTSans";
+    src: url("~@/assets/fonts/PTSans-Bold.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "StarWars";
+    src: url("~@/assets/fonts/star-wars.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "PTSans";
+    font-weight: 300;
+    background-color: #eeeeee;
+}
+
+
+/*Layout*/
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main {
+    margin-top: 63px;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .main {
+        margin-top: 73px;
+    }
+}
+@media screen and (min-width: 1230px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1570px;
+    }
+}

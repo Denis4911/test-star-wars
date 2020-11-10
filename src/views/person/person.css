@@ -1,0 +1,28 @@
+.person-page {
+    padding: 20px 0;
+}
+.person-page__name {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.person-page__params {
+    font-size: 14px;
+}
+.person-page__params-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.person-page__params-item-left {
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+.person-page__params-item-right {
+    font-weight: 900;
+}
+@media screen and (min-width: 992px) {
+    .person-page {
+        padding: 50px 0;
+    }
+    .person-page__name {
+        font-size: 30px;
+    }
+}

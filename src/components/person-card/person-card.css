@@ -1,0 +1,46 @@
+.person-card {
+    background-color: #fff;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    position: relative;
+    padding-bottom: 65px;
+}
+.person-card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+.person-card__name {
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.person-card__params {
+    font-size: 14px;
+}
+.person-card__params-item-param {
+    opacity: 0.8;
+    margin-right: 5px;
+}
+.person-card__params-item-value {
+    font-weight: 900;
+}
+.person-card__details {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.person-card__details:hover {
+    opacity: 0.9;
+}
